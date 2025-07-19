@@ -1,5 +1,5 @@
 class Solution:
-    def sortSentence(self, s: str) -> str:
+    def sortSentence(self, s: str) -> str: 
          def isnumber(word):
             number=''
             for i in word:
@@ -14,12 +14,3 @@ class Solution:
             ans.append(x)
          result=' '.join(ans)
          return result
-         
-         
-
-
-                    
-          #return number
-         #array = s.split()
-         #result = isnumber(array)
-         #print(sorted(result))
